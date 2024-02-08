@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libscene.a CMakeFiles/scene.dir/gameplayScene.cpp.obj CMakeFiles/scene.dir/demoScene.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libscene.a

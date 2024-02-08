@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libwindow.a CMakeFiles/window.dir/window.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libwindow.a

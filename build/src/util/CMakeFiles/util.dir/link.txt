@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libutil.a CMakeFiles/util.dir/File.cpp.obj CMakeFiles/util.dir/Camera.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libutil.a

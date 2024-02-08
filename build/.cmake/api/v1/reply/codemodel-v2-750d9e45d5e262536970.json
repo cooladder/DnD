@@ -1,0 +1,200 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/D&D",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-src.D&D-Debug-c2cebb4959531b2481f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/D&D",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						6
+					]
+				},
+				{
+					"build" : "src/D&D/Scene",
+					"jsonFile" : "directory-src.D&D.Scene-Debug-9d2d263f911e8fceb738.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/D&D/Scene",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/util",
+					"jsonFile" : "directory-src.util-Debug-115ba1e4bb25559e3768.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/util",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/renderer",
+					"jsonFile" : "directory-src.renderer-Debug-fc95c34bfa1a14bf9f10.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/renderer",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "dnd",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw3::@d94a04cfddd8718f6ca4",
+					"jsonFile" : "target-glfw3-Debug-208886aeda4ee1f21cf7.json",
+					"name" : "glfw3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lib::@d94a04cfddd8718f6ca4",
+					"jsonFile" : "target-lib-Debug-f5807be3d7d0749f4333.json",
+					"name" : "lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@145eef247bfb46b6828c",
+					"jsonFile" : "target-main-Debug-564d571216f2f48fb437.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "renderer::@cc07643e4269eb53963a",
+					"jsonFile" : "target-renderer-Debug-9645f3e57466dc43590a.json",
+					"name" : "renderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "scene::@7d0f88ad540568de5b01",
+					"jsonFile" : "target-scene-Debug-608edd7d51ce58c9c620.json",
+					"name" : "scene",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "util::@6bc12a100e338ba65b7b",
+					"jsonFile" : "target-util-Debug-99e0b8d0843590e3bb5d.json",
+					"name" : "util",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "window::@d94a04cfddd8718f6ca4",
+					"jsonFile" : "target-window-Debug-ab71a3f07151b270135b.json",
+					"name" : "window",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Jim/OneDrive/Desktop/DnD/build",
+		"source" : "C:/Users/Jim/OneDrive/Desktop/DnD"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

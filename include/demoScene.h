@@ -10,5 +10,6 @@ private:
 public:
     demoScene();
     void update(float s) override;
+    void init() override;
 };
 #endif

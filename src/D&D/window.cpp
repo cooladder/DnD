@@ -102,12 +102,12 @@ void Window::changeScene(int sceneIndex){
         break;
     case 1:
         currentScene = new demoScene();
+        currentScene->init();
         break;
     default:
         assert("Unable to locate scene");
         break;
     }
-
 }
 
 void Window::loop(){
@@ -119,9 +119,7 @@ void Window::loop(){
     // Main loop
     while (!glfwWindowShouldClose(window))
     {
-
         glfwPollEvents();
-
 
         // Start the Dear ImGui frame
         ImGui_ImplOpenGL3_NewFrame();

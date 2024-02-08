@@ -1,4 +1,7 @@
 #include "demoScene.h"
+#include "ECS/ECS.hpp"
+#include "ECS/ComponentManager.hpp"
+#include "ECS/EntityManager.hpp"
 #include <iostream>
 
 demoScene::demoScene(){
@@ -23,4 +26,20 @@ void demoScene::update(float s){
     }else if(isChange){
         Window::changeScene(0);
     }
+
+}
+
+void demoScene::init(){
+    ComponentManager::init();
+    EntityManager::init();
+
+    Rect data = {
+        50, glm::vec2(0, 0)
+    };
+
+    Entity rec1 = EntityManager::getUniqueID();
+    ComponentManager::registerEntity(rec1);
+    ComponentManager::registerComponent<Rect>(rec1);
+    ComponentManager::setComponentData<Rect>(rec1, data);
+
 }

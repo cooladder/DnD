@@ -1,10 +1,12 @@
 #include "Camera.h"
+#include "ECS/ECS.hpp"
 #ifndef SCENE
 #define SCENE
 class Scene
 {
 protected:
     Camera camera;
+    Entity gameObjs[MAX_ENTITY];
 public:
     float transitionTime = 1; // In second
 

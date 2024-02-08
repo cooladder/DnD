@@ -210,7 +210,8 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/matrix_transform.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ECS.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/bitset \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
@@ -261,6 +262,7 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.2.0/tuple \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
@@ -330,4 +332,30 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/Texture.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/stb/stb_image.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ComponentManager.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ComponentArray.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/array \
+ C:/msys64/ucrt64/include/c++/13.2.0/compare \
+ C:/msys64/ucrt64/include/c++/13.2.0/unordered_map \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/unordered_map.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stack \
+ C:/msys64/ucrt64/include/c++/13.2.0/deque \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_deque.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/deque.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_stack.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/typeindex \
+ C:/msys64/ucrt64/include/c++/13.2.0/set \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multiset.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/queue \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_queue.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/EntityManager.hpp

@@ -1,6 +1,7 @@
 #pragma once
 #include <stdint.h>
 #include <bitset>
+#include <vector>
 #include "glm/vec2.hpp"
 
 
@@ -20,6 +21,5 @@ struct speed{
 }; typedef struct speed Speed;
 
 struct Rectangle{
-    int size;
-    glm::vec2 left_top;
+    float verticies[12];
 }; typedef struct Rectangle Rect;

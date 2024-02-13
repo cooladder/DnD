@@ -1,4 +1,5 @@
 #include "Camera.h"
+#include "shader.h"
 #include "ECS/ECS.hpp"
 #ifndef SCENE
 #define SCENE
@@ -6,7 +7,8 @@ class Scene
 {
 protected:
     Camera camera;
-    Entity gameObjs[MAX_ENTITY];
+    shader defaultShader;
+    Entity gameObjs;
 public:
     float transitionTime = 1; // In second
 

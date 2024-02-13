@@ -1,7 +1,6 @@
 #include "Scene.h"
 #include "window.h"
 #include "File.h"
-#include "shader.h"
 #include "Texture.h"
 #ifndef GAMEPLAY_SCENE
 #define GAMEPLAY_SCENE
@@ -11,7 +10,6 @@ class gameplayScene: public Scene
 private:
     bool isChange;
     GLuint vao, ebo, buffer;
-    shader defaultShader;
     Texture texture;
     float vertexArray[36] = {
         // position             color                    texture coord

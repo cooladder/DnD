@@ -210,12 +210,13 @@ src/D&D/Scene/CMakeFiles/scene.dir/gameplayScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/matrix_transform.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ECS.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/bitset \
- C:/msys64/ucrt64/include/c++/13.2.0/string \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/shader.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/ios \
+ C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
  C:/msys64/ucrt64/include/wchar.h \
@@ -224,53 +225,22 @@ src/D&D/Scene/CMakeFiles/scene.dir/gameplayScene.cpp.obj: \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
  C:/msys64/ucrt64/include/sec_api/wchar_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/new \
+ C:/msys64/ucrt64/include/c++/13.2.0/exception \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/new \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h \
  C:/msys64/ucrt64/include/c++/13.2.0/clocale \
  C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/13.2.0/cctype \
  C:/msys64/ucrt64/include/ctype.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
- C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h \
- C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
- C:/msys64/ucrt64/include/c++/13.2.0/string_view \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/string_view.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
- C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
- C:/msys64/ucrt64/include/c++/13.2.0/tuple \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream \
- C:/msys64/ucrt64/include/c++/13.2.0/ostream \
- C:/msys64/ucrt64/include/c++/13.2.0/ios \
- C:/msys64/ucrt64/include/c++/13.2.0/exception \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
- C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
@@ -288,6 +258,34 @@ src/D&D/Scene/CMakeFiles/scene.dir/gameplayScene.cpp.obj: \
  C:/msys64/ucrt64/include/pthread_unistd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/string \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/initializer_list \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/string_view \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/string_view.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
+ C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/tuple \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/system_error \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h \
@@ -306,6 +304,20 @@ src/D&D/Scene/CMakeFiles/scene.dir/gameplayScene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/File.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/fstream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ECS.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/bitset \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imconfig.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
@@ -318,18 +330,6 @@ src/D&D/Scene/CMakeFiles/scene.dir/gameplayScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_glfw.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_opengl3.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/gamePlayScene.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/File.h \
- C:/msys64/ucrt64/include/c++/13.2.0/fstream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/shader.h \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/Texture.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/stb/stb_image.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \

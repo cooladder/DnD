@@ -1,58 +1,87 @@
 src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:\Users\Jim\OneDrive\Desktop\DnD\src\D&D\Scene\demoScene.cpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/Scene.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/Camera.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glad/glad.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/KHR/khrplatform.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtx/string_cast.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/glm.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/_fixes.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/cmath \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
+ C:/msys64/ucrt64/include/math.h C:/msys64/ucrt64/include/crtdefs.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
  C:/msys64/ucrt64/include/_mingw_secapi.h \
  C:/msys64/ucrt64/include/vadefs.h \
  C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/GLFW/glfw3.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/mat4x4.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double4x4.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat4x4.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec4.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/qualifier.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/setup.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/cassert \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h \
- C:/msys64/ucrt64/include/assert.h \
- C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/stdlib.h \
  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
  C:/msys64/ucrt64/include/limits.h \
  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
  C:/msys64/ucrt64/include/malloc.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/debug/debug.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/predefined_ops.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bit \
+ C:/msys64/ucrt64/include/c++/13.2.0/limits \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/setup.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/cassert \
+ C:/msys64/ucrt64/include/assert.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
  C:/msys64/ucrt64/include/c++/13.2.0/cstddef \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/simd/platform.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
- C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec4.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/compute_vector_relational.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/limits \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat4x4.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/matrix.hpp \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/climits \
+ C:/msys64/ucrt64/include/c++/13.2.0/cfloat \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/fwd.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/qualifier.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/setup.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/vec2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec2.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/compute_vector_relational.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool2_precision.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float2_precision.hpp \
@@ -80,6 +109,8 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_uint3_sized.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/vec4.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec4.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool4_precision.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float4.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float4_precision.hpp \
@@ -93,9 +124,7 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double2x2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat2x2.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat2x2.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double2x2_precision.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float2x2.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float2x2_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/matrix.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/mat2x3.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double2x3.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat2x3.hpp \
@@ -145,73 +174,88 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double4x3_precision.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x3.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x3_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/mat4x4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double4x4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat4x4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_mat4x4.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double4x4_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x4.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x4_precision.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_matrix.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/geometric.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_geometric.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/exponential.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec1.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_vec1.inl \
- C:/msys64/ucrt64/include/c++/13.2.0/cmath \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h \
- C:/msys64/ucrt64/include/math.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h \
- C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h \
- C:/msys64/ucrt64/include/c++/13.2.0/debug/debug.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/predefined_ops.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bit \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_exponential.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/vector_relational.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_vector_relational.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/_vectorize.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/common.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/_fixes.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_common.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/compute_common.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double4x4_precision.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x4.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float4x4_precision.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/matrix_transform.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_projection.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_double2x2_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float2x2.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_float2x2_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/trigonometric.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_trigonometric.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/packing.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_packing.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_half.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_half.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/integer.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_integer.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/type_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/quaternion.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/constants.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/scalar_constants.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/scalar_constants.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/constants.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/trigonometric.hpp \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/func_trigonometric.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/matrix_transform.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_projection.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_projection.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_clip_space.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_clip_space.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.hpp \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/matrix_transform.inl \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/matrix_transform.inl \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ECS.hpp \
- C:/msys64/ucrt64/include/c++/13.2.0/bitset \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_relational.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_relational.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_float.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_common.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_geometric.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_geometric.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_common.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_float.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_quat.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_relational.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_relational.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/type_quat.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_float_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_double.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_double_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_trigonometric.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_trigonometric.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_transform.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/quaternion_transform.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/quaternion.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/epsilon.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/detail/setup.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/epsilon.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/vec1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_bool1_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_float1_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_double1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_double1_precision.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_int1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_int1_sized.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_uint1.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/ext/vector_uint1_sized.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtc/type_precision.inl \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtx/dual_quaternion.hpp \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtx/dual_quaternion.inl \
  C:/msys64/ucrt64/include/c++/13.2.0/string \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
@@ -262,7 +306,21 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/13.2.0/tuple \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cstring \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glm/gtx/string_cast.inl \
+ C:/msys64/ucrt64/include/c++/13.2.0/cstdarg \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/Scene.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/Camera.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/glad/glad.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/KHR/khrplatform.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/GLFW/glfw3.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/shader.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
@@ -306,30 +364,25 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imconfig.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
- C:/msys64/ucrt64/include/float.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h \
- C:/msys64/ucrt64/include/stdarg.h \
- C:/msys64/ucrt64/include/_mingw_stdarg.h \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_glfw.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_opengl3.h \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/gamePlayScene.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/File.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
- C:/Users/Jim/OneDrive/Desktop/DnD/include/shader.h \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/ECS/ECS.hpp \
+ C:/msys64/ucrt64/include/c++/13.2.0/bitset \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/window.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imconfig.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_glfw.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_opengl3.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/gamePlayScene.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/Texture.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/stb/stb_image.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \

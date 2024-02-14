@@ -1,5 +1,4 @@
-#ifndef DEMO_SCENE
-#define DEMO_SCENE
+#pragma once
 #include "Scene.h"
 #include "window.h"
 
@@ -15,6 +14,6 @@ private:
 public:
     demoScene();
     void update(float s) override;
+    void gui(float s) override;
     void init() override;
 };
-#endif

@@ -11,6 +11,9 @@ C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/CMakeFiles/rebuild_cache.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/Scene/CMakeFiles/scene.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/Scene/CMakeFiles/edit_cache.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/Scene/CMakeFiles/rebuild_cache.dir
+C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/core/CMakeFiles/core.dir
+C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/core/CMakeFiles/edit_cache.dir
+C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/core/CMakeFiles/rebuild_cache.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/util/CMakeFiles/util.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/util/CMakeFiles/edit_cache.dir
 C:/Users/Jim/OneDrive/Desktop/DnD/build/src/util/CMakeFiles/rebuild_cache.dir

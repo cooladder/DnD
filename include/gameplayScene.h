@@ -1,5 +1,6 @@
 #include "Scene.h"
 #include "window.h"
+#include "DND.h"
 #include "File.h"
 #include "Texture.h"
 #ifndef GAMEPLAY_SCENE
@@ -26,6 +27,7 @@ private:
 public:
     gameplayScene();
     void update(float s) override;
+    void gui(float s) override;
     void init() override;
 };
 #endif

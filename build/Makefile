@@ -181,6 +181,19 @@ scene/fast:
 .PHONY : scene/fast
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f "src\D&D\core\CMakeFiles\core.dir\build.make" "src/D&D/core/CMakeFiles/core.dir/build"
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named util
 
 # Build rule for target.
@@ -214,6 +227,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... core
 	@echo ... glfw3
 	@echo ... lib
 	@echo ... main

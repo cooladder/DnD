@@ -69,6 +69,8 @@ void Window::imgui_init(){
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;       // Enable Multi-Viewport / Platform Windows
     //io.ConfigViewportsNoAutoMerge = true;
     //io.ConfigViewportsNoTaskBarIcon = true;
+    io.Fonts->AddFontFromFileTTF("C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\fonts\\ttf\\KNBobohei-Bold.ttf"
+                            , 18.0f, nullptr, io.Fonts->GetGlyphRangesChineseFull());
 
     // Setup Dear ImGui style
     ImGui::StyleColorsClassic();
@@ -121,10 +123,15 @@ void Window::loop(){
     {
         glfwPollEvents();
 
+
         // Start the Dear ImGui frame
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
+
+        // the start of imgui update
+        if(s >= 0)
+            currentScene->gui(s);
 
         // Rendering
         ImGui::Render();
@@ -135,12 +142,14 @@ void Window::loop(){
         glClear(GL_COLOR_BUFFER_BIT);
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
-        if(s >= 0)
-            currentScene->update(s);
 
         ImGui::UpdatePlatformWindows();
         ImGui::RenderPlatformWindowsDefault();
         glfwMakeContextCurrent(window);
+
+        // The start of scene update
+        if(s >= 0)
+            currentScene->update(s);
 
         glfwSwapBuffers(window);
 

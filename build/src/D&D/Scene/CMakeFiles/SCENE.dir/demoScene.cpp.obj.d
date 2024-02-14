@@ -383,6 +383,7 @@ src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj: \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_glfw.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/imgui_impl_opengl3.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/gamePlayScene.h \
+ C:/Users/Jim/OneDrive/Desktop/DnD/include/DND.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/Texture.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/thirdparty/stb/stb_image.h \
  C:/Users/Jim/OneDrive/Desktop/DnD/include/demoScene.h \

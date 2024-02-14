@@ -94,6 +94,7 @@ src/main.exe: src/CMakeFiles/main.dir/main.cpp.obj
 src/main.exe: src/CMakeFiles/main.dir/build.make
 src/main.exe: src/D&D/libwindow.a
 src/main.exe: src/D&D/Scene/libscene.a
+src/main.exe: src/D&D/core/libcore.a
 src/main.exe: src/renderer/librenderer.a
 src/main.exe: src/util/libutil.a
 src/main.exe: src/D&D/libglfw3.a

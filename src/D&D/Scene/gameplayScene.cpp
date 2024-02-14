@@ -10,6 +10,10 @@ gameplayScene::gameplayScene(){
     isChange = false;
 }
 
+void gameplayScene::gui(float s){
+    DND::setup();
+}
+
 void gameplayScene::update(float s){
 
     defaultShader.use();

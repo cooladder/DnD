@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Jim/OneDrive/Desktop/DnD/src/CMakeLists.txt"
   "C:/Users/Jim/OneDrive/Desktop/DnD/src/D&D/CMakeLists.txt"
   "C:/Users/Jim/OneDrive/Desktop/DnD/src/D&D/Scene/CMakeLists.txt"
+  "C:/Users/Jim/OneDrive/Desktop/DnD/src/D&D/core/CMakeLists.txt"
   "C:/Users/Jim/OneDrive/Desktop/DnD/src/renderer/CMakeLists.txt"
   "C:/Users/Jim/OneDrive/Desktop/DnD/src/util/CMakeLists.txt"
   )
@@ -53,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/D&D/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/D&D/Scene/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/D&D/core/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/util/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/renderer/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -64,6 +66,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/D&D/CMakeFiles/glfw3.dir/DependInfo.cmake"
   "src/D&D/CMakeFiles/lib.dir/DependInfo.cmake"
   "src/D&D/Scene/CMakeFiles/scene.dir/DependInfo.cmake"
+  "src/D&D/core/CMakeFiles/core.dir/DependInfo.cmake"
   "src/util/CMakeFiles/util.dir/DependInfo.cmake"
   "src/renderer/CMakeFiles/renderer.dir/DependInfo.cmake"
   )

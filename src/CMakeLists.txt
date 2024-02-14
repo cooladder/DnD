@@ -13,6 +13,7 @@ add_executable(main main.cpp)
 
 target_link_libraries(main window)
 target_link_libraries(main scene)
+target_link_libraries(main core)
 target_link_libraries(main renderer)
 target_link_libraries(main util)
 

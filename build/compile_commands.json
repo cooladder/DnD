@@ -72,6 +72,12 @@
   "output": "src/D&D/Scene/CMakeFiles/scene.dir/demoScene.cpp.obj"
 },
 {
+  "directory": "C:/Users/Jim/OneDrive/Desktop/DnD/build/src/D&D/core",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/core.dir/includes_CXX.rsp -g -o CMakeFiles\\core.dir\\DND_setup.cpp.obj -c \"C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\src\\D&D\\core\\DND_setup.cpp\"",
+  "file": "C:/Users/Jim/OneDrive/Desktop/DnD/src/D&D/core/DND_setup.cpp",
+  "output": "src/D&D/core/CMakeFiles/core.dir/DND_setup.cpp.obj"
+},
+{
   "directory": "C:/Users/Jim/OneDrive/Desktop/DnD/build/src/util",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/util.dir/includes_CXX.rsp -g -o CMakeFiles\\util.dir\\File.cpp.obj -c C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\src\\util\\File.cpp",
   "file": "C:/Users/Jim/OneDrive/Desktop/DnD/src/util/File.cpp",

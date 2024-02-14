@@ -16,6 +16,7 @@ set(LIB_SOURCE
  ${ROOT}/thirdparty/imgui_widgets.cpp)
 
 add_subdirectory(Scene)
+add_subdirectory(core)
 
 add_library(window ${CMAKE_CURRENT_SOURCE_DIR}/window.cpp)
 add_library(glfw3 ${ROOT}/lib/glfw3.dll)

@@ -14,6 +14,10 @@ demoScene::demoScene(){
     isChange = false;
 }
 
+void demoScene::gui(float s){
+    DND::setup();
+}
+
 void demoScene::update(float s){
 
     defaultShader.use();
@@ -66,12 +70,7 @@ void demoScene::init(){
     defaultShader.init();
     ComponentManager::init();
     EntityManager::init();
-    Rect vertexArray = {{
-        0.0f, 0.0f, 0.0f,       
-        0.0f, 100.0f, 0.0f,     
-        100.0f, 100.0f, 0.0f,   
-        100.0f, 0.0f, 0.0f     
-    }};
+    Rect vertexArray;
 
     Entity rec1 = EntityManager::getUniqueID();
     ComponentManager::registerEntity(rec1);

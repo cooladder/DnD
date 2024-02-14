@@ -104,10 +104,12 @@ src/D&D/all: src/D&D/CMakeFiles/window.dir/all
 src/D&D/all: src/D&D/CMakeFiles/glfw3.dir/all
 src/D&D/all: src/D&D/CMakeFiles/lib.dir/all
 src/D&D/all: src/D&D/Scene/all
+src/D&D/all: src/D&D/core/all
 .PHONY : src/D&D/all
 
 # Recursive "preinstall" directory target.
 src/D&D/preinstall: src/D&D/Scene/preinstall
+src/D&D/preinstall: src/D&D/core/preinstall
 .PHONY : src/D&D/preinstall
 
 # Recursive "clean" directory target.
@@ -115,6 +117,7 @@ src/D&D/clean: src/D&D/CMakeFiles/window.dir/clean
 src/D&D/clean: src/D&D/CMakeFiles/glfw3.dir/clean
 src/D&D/clean: src/D&D/CMakeFiles/lib.dir/clean
 src/D&D/clean: src/D&D/Scene/clean
+src/D&D/clean: src/D&D/core/clean
 .PHONY : src/D&D/clean
 
 #=============================================================================
@@ -131,6 +134,21 @@ src/D&D/Scene/preinstall:
 # Recursive "clean" directory target.
 src/D&D/Scene/clean: src/D&D/Scene/CMakeFiles/scene.dir/clean
 .PHONY : src/D&D/Scene/clean
+
+#=============================================================================
+# Directory level rules for directory src/D&D/core
+
+# Recursive "all" directory target.
+src/D&D/core/all: src/D&D/core/CMakeFiles/core.dir/all
+.PHONY : src/D&D/core/all
+
+# Recursive "preinstall" directory target.
+src/D&D/core/preinstall:
+.PHONY : src/D&D/core/preinstall
+
+# Recursive "clean" directory target.
+src/D&D/core/clean: src/D&D/core/CMakeFiles/core.dir/clean
+.PHONY : src/D&D/core/clean
 
 #=============================================================================
 # Directory level rules for directory src/renderer
@@ -170,16 +188,17 @@ src/CMakeFiles/main.dir/all: src/D&D/CMakeFiles/window.dir/all
 src/CMakeFiles/main.dir/all: src/D&D/CMakeFiles/glfw3.dir/all
 src/CMakeFiles/main.dir/all: src/D&D/CMakeFiles/lib.dir/all
 src/CMakeFiles/main.dir/all: src/D&D/Scene/CMakeFiles/scene.dir/all
+src/CMakeFiles/main.dir/all: src/D&D/core/CMakeFiles/core.dir/all
 src/CMakeFiles/main.dir/all: src/util/CMakeFiles/util.dir/all
 src/CMakeFiles/main.dir/all: src/renderer/CMakeFiles/renderer.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\main.dir\build.make src/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=11,12 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=13,14 "Built target main"
 .PHONY : src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -200,7 +219,7 @@ src/CMakeFiles/main.dir/clean:
 src/D&D/CMakeFiles/window.dir/all:
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\window.dir\build.make" "src/D&D/CMakeFiles/window.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\window.dir\build.make" "src/D&D/CMakeFiles/window.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=22,23 "Built target window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=24,25 "Built target window"
 .PHONY : src/D&D/CMakeFiles/window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +245,7 @@ src/D&D/CMakeFiles/window.dir/clean:
 src/D&D/CMakeFiles/glfw3.dir/all:
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\glfw3.dir\build.make" "src/D&D/CMakeFiles/glfw3.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\glfw3.dir\build.make" "src/D&D/CMakeFiles/glfw3.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=1 "Built target glfw3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=3 "Built target glfw3"
 .PHONY : src/D&D/CMakeFiles/glfw3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -252,7 +271,7 @@ src/D&D/CMakeFiles/glfw3.dir/clean:
 src/D&D/CMakeFiles/lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\lib.dir\build.make" "src/D&D/CMakeFiles/lib.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "src\D&D\CMakeFiles\lib.dir\build.make" "src/D&D/CMakeFiles/lib.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10 "Built target lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12 "Built target lib"
 .PHONY : src/D&D/CMakeFiles/lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +297,7 @@ src/D&D/CMakeFiles/lib.dir/clean:
 src/D&D/Scene/CMakeFiles/scene.dir/all:
 	$(MAKE) $(MAKESILENT) -f "src\D&D\Scene\CMakeFiles\scene.dir\build.make" "src/D&D/Scene/CMakeFiles/scene.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "src\D&D\Scene\CMakeFiles\scene.dir\build.make" "src/D&D/Scene/CMakeFiles/scene.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=16,17,18 "Built target scene"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=18,19,20 "Built target scene"
 .PHONY : src/D&D/Scene/CMakeFiles/scene.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,13 +317,39 @@ src/D&D/Scene/CMakeFiles/scene.dir/clean:
 .PHONY : src/D&D/Scene/CMakeFiles/scene.dir/clean
 
 #=============================================================================
+# Target rules for target src/D&D/core/CMakeFiles/core.dir
+
+# All Build rule for target.
+src/D&D/core/CMakeFiles/core.dir/all:
+	$(MAKE) $(MAKESILENT) -f "src\D&D\core\CMakeFiles\core.dir\build.make" "src/D&D/core/CMakeFiles/core.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "src\D&D\core\CMakeFiles\core.dir\build.make" "src/D&D/core/CMakeFiles/core.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=1,2 "Built target core"
+.PHONY : src/D&D/core/CMakeFiles/core.dir/all
+
+# Build rule for subdir invocation for target.
+src/D&D/core/CMakeFiles/core.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "src/D&D/core/CMakeFiles/core.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles 0
+.PHONY : src/D&D/core/CMakeFiles/core.dir/rule
+
+# Convenience name for target.
+core: src/D&D/core/CMakeFiles/core.dir/rule
+.PHONY : core
+
+# clean rule for target.
+src/D&D/core/CMakeFiles/core.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "src\D&D\core\CMakeFiles\core.dir\build.make" "src/D&D/core/CMakeFiles/core.dir/clean"
+.PHONY : src/D&D/core/CMakeFiles/core.dir/clean
+
+#=============================================================================
 # Target rules for target src/util/CMakeFiles/util.dir
 
 # All Build rule for target.
 src/util/CMakeFiles/util.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\util\CMakeFiles\util.dir\build.make src/util/CMakeFiles/util.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\util\CMakeFiles\util.dir\build.make src/util/CMakeFiles/util.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=19,20,21 "Built target util"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=21,22,23 "Built target util"
 .PHONY : src/util/CMakeFiles/util.dir/all
 
 # Build rule for subdir invocation for target.
@@ -330,7 +375,7 @@ src/util/CMakeFiles/util.dir/clean:
 src/renderer/CMakeFiles/renderer.dir/all:
 	$(MAKE) $(MAKESILENT) -f src\renderer\CMakeFiles\renderer.dir\build.make src/renderer/CMakeFiles/renderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\renderer\CMakeFiles\renderer.dir\build.make src/renderer/CMakeFiles/renderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=13,14,15 "Built target renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Jim\OneDrive\Desktop\DnD\build\CMakeFiles --progress-num=15,16,17 "Built target renderer"
 .PHONY : src/renderer/CMakeFiles/renderer.dir/all
 
 # Build rule for subdir invocation for target.

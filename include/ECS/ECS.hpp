@@ -21,5 +21,10 @@ struct speed{
 }; typedef struct speed Speed;
 
 struct Rectangle{
-    float verticies[12];
+    float verticies[12]={
+        0.0f, 0.0f, 0.0f,       
+        0.0f, 100.0f, 0.0f,     
+        100.0f, 100.0f, 0.0f,   
+        100.0f, 0.0f, 0.0f     
+    };
 }; typedef struct Rectangle Rect;

@@ -8,8 +8,13 @@
 
 demoScene::demoScene(){
     Window::getInstance().setColor(0.0f, 0.0f, 1.0f, 1.0f);
+<<<<<<< HEAD
     std::string filePaths[2] = {"C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\shader\\vshader.glsl",
                             "C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\shader\\fshader.glsl"};
+=======
+    std::string filePaths[2] = {"asset\\shader\\vshader.glsl",
+                            "asset\\shader\\fshader.glsl"};
+>>>>>>> 1963605 (First commit)
     defaultShader = shader(filePaths);
     isChange = false;
 }

@@ -69,7 +69,11 @@ void Window::imgui_init(){
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;       // Enable Multi-Viewport / Platform Windows
     //io.ConfigViewportsNoAutoMerge = true;
     //io.ConfigViewportsNoTaskBarIcon = true;
+<<<<<<< HEAD
     io.Fonts->AddFontFromFileTTF("C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\fonts\\ttf\\KNBobohei-Bold.ttf"
+=======
+    io.Fonts->AddFontFromFileTTF("..\\..\\fonts\\ttf\\KNBobohei-Bold.ttf"
+>>>>>>> 1963605 (First commit)
                             , 18.0f, nullptr, io.Fonts->GetGlyphRangesChineseFull());
 
     // Setup Dear ImGui style

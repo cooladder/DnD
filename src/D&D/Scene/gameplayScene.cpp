@@ -4,13 +4,8 @@
 
 gameplayScene::gameplayScene(){
     Window::getInstance().setColor(0.0f, 1.0f, 0.0f, 1.0f);
-<<<<<<< HEAD
-    std::string filePaths[2] = {"C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\shader\\default_vertex_shader.glsl",
-                            "C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\shader\\default_fragment_shader.glsl"};
-=======
     std::string filePaths[2] = {"asset\\shader\\default_vertex_shader.glsl",
                             "asset\\shader\\default_fragment_shader.glsl"};
->>>>>>> 1963605 (First commit)
     defaultShader = shader(filePaths);
     isChange = false;
 }
@@ -65,11 +60,7 @@ void gameplayScene::update(float s){
 void gameplayScene::init(){
     //init
     defaultShader.init();
-<<<<<<< HEAD
-    texture = Texture("C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\iamge\\images.jpg");
-=======
     texture = Texture("asset\\iamge\\images.jpg");
->>>>>>> 1963605 (First commit)
 
     // generate vertex buffer object(VBO)
     glGenBuffers(1, &buffer);

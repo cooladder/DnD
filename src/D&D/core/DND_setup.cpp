@@ -8,11 +8,7 @@ const char* genre[15] = {
 static const char* current_item = NULL;
 
 void DND::setup(){
-<<<<<<< HEAD
-    File in = File("C:\\Users\\Jim\\OneDrive\\Desktop\\DnD\\asset\\json\\race.json");
-=======
     File in = File("asset\\json\\race.json");
->>>>>>> 1963605 (First commit)
     nlohmann::json j = in.getContext();
     std::cout << in.getContext();
     std::cout << j;

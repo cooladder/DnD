@@ -8,8 +8,8 @@
 
 demoScene::demoScene(){
     Window::getInstance().setColor(0.0f, 0.0f, 1.0f, 1.0f);
-    std::string filePaths[2] = {"asset\\shader\\vshader.glsl",
-                            "asset\\shader\\fshader.glsl"};
+    std::string filePaths[2] = {"assets\\shader\\vshader.glsl",
+                            "assets\\shader\\fshader.glsl"};
     defaultShader = shader(filePaths);
     isChange = false;
 }

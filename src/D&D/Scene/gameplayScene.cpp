@@ -4,8 +4,8 @@
 
 gameplayScene::gameplayScene(){
     Window::getInstance().setColor(0.0f, 1.0f, 0.0f, 1.0f);
-    std::string filePaths[2] = {"asset\\shader\\default_vertex_shader.glsl",
-                            "asset\\shader\\default_fragment_shader.glsl"};
+    std::string filePaths[2] = {"assets\\shader\\default_vertex_shader.glsl",
+                            "assets\\shader\\default_fragment_shader.glsl"};
     defaultShader = shader(filePaths);
     isChange = false;
 }
@@ -60,7 +60,7 @@ void gameplayScene::update(float s){
 void gameplayScene::init(){
     //init
     defaultShader.init();
-    texture = Texture("asset\\iamge\\images.jpg");
+    texture = Texture("assets\\iamge\\images.jpg");
 
     // generate vertex buffer object(VBO)
     glGenBuffers(1, &buffer);

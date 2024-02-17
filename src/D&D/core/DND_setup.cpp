@@ -7,15 +7,11 @@ const char* genre[15] = {
 }; 
 static const char* current_item = NULL;
 
-
 // cmd set chcp 65001 to utf-8
 void DND::setup(){
     File in = File("assets\\json\\race.json");
-    nlohmann::json j;
-    in.getStream() >> j;
-    for(auto it: j.items()){
-        std::cout << it.key() << std::endl;
-    }
+    nlohmann::json raw_race_json;
+    in.getStream() >> raw_race_json;
 
     ImGui::Begin(u8"初始設定");
     if (ImGui::BeginCombo("##combo", current_item)){ 
@@ -28,5 +24,37 @@ void DND::setup(){
         }
         ImGui::EndCombo();
     }
+
+    nlohmann::json character;
+
+    for(auto it: raw_race_json.items()){
+        if(current_item && current_item == it.key()){
+            std::string tmp_output;
+            ImGui::SeparatorText(current_item);
+            character = it.value()["character"];
+
+            for(auto it2: character.items()){
+                if(it2.key() == "description")
+                    continue;
+                tmp_output += it2.key() + ". " + it2.value().dump();
+                ImGui::BulletText(tmp_output.c_str());
+                tmp_output.clear();
+            }
+
+            ImGui::SeparatorText("");
+            nlohmann::json description = character["description"];
+
+            for(auto it2: description.items()){
+                int size = it2.value().dump().length();
+                tmp_output += it2.key() + ". ";
+                ImGui::BulletText(tmp_output.c_str());
+                ImGui::Indent();
+                ImGui::TextWrapped(it2.value().dump().substr(1, size-2).c_str());
+                ImGui::Unindent();
+                tmp_output.clear();
+            }
+        }
+    }
+
     ImGui::End();
 }

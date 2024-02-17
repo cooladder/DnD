@@ -16,6 +16,7 @@ demoScene::demoScene(){
 
 void demoScene::gui(float s){
     DND::setup();
+    DND::build();
 }
 
 void demoScene::update(float s){

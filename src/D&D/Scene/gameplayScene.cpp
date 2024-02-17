@@ -12,6 +12,7 @@ gameplayScene::gameplayScene(){
 
 void gameplayScene::gui(float s){
     DND::setup();
+    DND::build();
 }
 
 void gameplayScene::update(float s){

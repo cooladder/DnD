@@ -70,7 +70,7 @@ void Window::imgui_init(){
     //io.ConfigViewportsNoAutoMerge = true;
     //io.ConfigViewportsNoTaskBarIcon = true;
     io.Fonts->AddFontFromFileTTF("assets\\fonts\\ttf\\KNBobohei-Bold.ttf"
-                            , 18.0f, nullptr, io.Fonts->GetGlyphRangesChineseFull());
+                            , 16.0f, nullptr, io.Fonts->GetGlyphRangesChineseFull());
 
     // Setup Dear ImGui style
     ImGui::StyleColorsClassic();

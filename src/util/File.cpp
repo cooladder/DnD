@@ -15,3 +15,7 @@ std::string File::getContext(){
     }
     return context;
 }
+
+std::ifstream& File::getStream(){
+    return in;
+}

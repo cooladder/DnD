@@ -9,4 +9,5 @@ private:
 public:
     File(const char* filepath);
     std::string getContext();
+    std::ifstream& getStream();
 };
